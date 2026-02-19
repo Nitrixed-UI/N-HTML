@@ -1,14 +1,54 @@
-.vscode
-*.log
-/build
-.env
-.env.local
-config/secrets.yml
+# Compiled object files
 *.o
 *.obj
-*.exe
+*.lo
+*.la
+*.al
+*.a
+*.lib
+
+# Compiled dynamic libraries
+*.so
+*.dylib
 *.dll
-*.class
-*.pyc
-*.pyo
+
+# Executables
+*.exe
 *.out
+*.app
+
+# Debug files
+*.dSYM/
+*.pdb
+*.idb
+
+# Build directories
+/build/
+/bin/
+/Debug/
+/Release/
+/dist/
+
+# Generated files
+*.class
+*.log
+*.tmp
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment / config files (optional)
+.env

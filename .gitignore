@@ -1,1 +1,14 @@
 .vscode
+*.log
+/build
+.env
+.env.local
+config/secrets.yml
+*.o
+*.obj
+*.exe
+*.dll
+*.class
+*.pyc
+*.pyo
+*.out
